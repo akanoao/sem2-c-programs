@@ -5,12 +5,6 @@ int main(void){
     printf("enter 3 numbers\n");
     scanf("%d %d %d",&a,&b,&c);
     if ((a>b) && (a>c)){
-        // if (a>c){
-        //     printf("%d is greatest",a);
-        // }
-        // else if (c>a){
-        //     printf("%d is greatest",c);
-        // }
         printf("%d is greatest",a);
     }
     else if ((b>a) && (b>c)){

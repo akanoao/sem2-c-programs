@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(void){
-    int a = 3;
-    int b = 5;
+    int a = 9;
+    int b = 10;
     int c;
     printf("a = %d b = %d\n", a, b);
     c = a;
     a = b;
-    b = a;
+    b = c;
     printf("a = %d b = %d\n", a, b);
     return 0;
 }

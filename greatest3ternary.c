@@ -6,6 +6,6 @@ int main(void){
     printf("enter 3 numbers\n");
     scanf("%d %d %d",&a,&b,&c);
     val  = a>b?(a>c?a:c):(b>c?b:c);
-    printf("\n%d\n",val);
+    printf("%d is greatest",val);
     return 0;
 }
